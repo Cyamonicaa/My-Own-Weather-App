@@ -6,35 +6,49 @@
     <title>Siya's Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Cape Town</h1>
-        <p>
-          Tuesday 21:07, clear with periodic clouds
-          <br />
-          Humidity: 72%, Wind: 14 km/h
-        </p>
-      </div>
-      <div>⛅18°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/Cyamonicaa" target="_blank"
-        >Siyamthanda Ntshebetu</a
-      >, is
-      <a href="https://github.com/Cyamonicaa/My-Own-Weather-App" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://siya-weather.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="city-result"
+          />
+          <input type="submit" value="Search" class="seatch-button" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1 class="searched-city">Cape Town</h1>
+          <p>
+            Tuesday 21:07, clear with periodic clouds
+            <br />
+            Humidity: <strong>72%</strong>, Wind: <strong>4 km/h</strong>
+          </p>
+        </div>
+        <div class="current-temperature">
+          <span class="temperature-icon">⛅</span>18<span
+            class="temperature-unit"
+            >°C</span
+          >
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/Cyamonicaa" target="_blank"
+          >Siyamthanda Ntshebetu</a
+        >, is
+        <a
+          href="https://github.com/Cyamonicaa/My-Own-Weather-App"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://siya-weather.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
