@@ -1,0 +1,20 @@
+.container {
+  width: 600px;
+  display: block;
+  margin: 30px auto;
+  background-color: #9fd3c7;
+  border-radius: 15px;
+  padding: 25px 15px;
+}
+.weather-app {
+  background-color: #ececec;
+}
+.city-result {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 80px 10px 10px;
+}
+.search-button {
+  border: none;
+  border-radius: 5px;
+}
