@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Siya's Weather App</title>
   </head>
   <body class="weather-app">
@@ -30,15 +36,15 @@
               Humidity: <strong>72%</strong>, Wind: <strong>4 km/h</strong>
             </p>
           </div>
-          <div class="current-temperature">
-            <span class="temperature-icon">⛅</span>18<span
-              class="temperature-unit"
-              >°C</span
-            >
+          <div class="current-temperature-container">
+            <span class="temperature-icon">⛅</span>
+            <span class="current-temperature">18</span>
+            <span class="temperature-unit">°C</span>
           </div>
         </div>
       </main>
-      <footer>
+      <hr />
+      <footer class="coder-info">
         Coded by
         <a href="https://github.com/Cyamonicaa" target="_blank"
           >Siyamthanda Ntshebetu</a

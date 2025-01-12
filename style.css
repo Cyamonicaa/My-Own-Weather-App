@@ -1,10 +1,12 @@
 .container {
+  font-family: "Roboto", serif;
   width: 500px;
   display: block;
   margin: 30px auto;
   background-color: #9fd3c7;
   border-radius: 15px;
   padding: 25px 15px;
+  color: #352f44;
 }
 .weather-app {
   background-color: #ececec;
@@ -19,8 +21,35 @@
   border-radius: 5px;
   padding: 10px 10px;
 }
-
+.searched-city {
+  font-size: 40px;
+  margin-top: 10px;
+}
 .weather-data {
   display: flex;
   justify-content: space-between;
+}
+
+.current-temperature {
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.temperature-icon {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.temperature-unit {
+  font-size: 20px;
+  margin-top: 15px;
+}
+strong {
+  color: #ececec;
+}
+a {
+  color: #00bbf0;
+}
+
+.coder-info {
+  font-size: 13px;
 }
